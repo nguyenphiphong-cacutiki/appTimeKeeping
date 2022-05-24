@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menuAll"
+        android:icon="@drawable/all_e"
+        app:showAsAction="always"
+        android:title="Show all"
+        />
+    <!--<item android:id="@+id/menuCurrentMonth"
+        android:icon="@drawable/month_e"
+
+        android:title="Current month"/>-->
+
+    <item android:id="@+id/menuTimekeeping"
+        android:icon="@drawable/time_keeping_e"
+        android:title="Timekeeping"/>
+    <item android:id="@+id/menuMember"
+        android:icon="@drawable/member_e"
+        android:title="Edit member"
+        />
+
+
+</menu>

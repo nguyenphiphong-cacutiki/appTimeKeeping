@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_marginStart="10dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0"
+        android:id="@+id/tvNameAddMember"
+        android:text="this is name"
+        android:textSize="20sp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/tvNameAddMember"
+        android:layout_marginLeft="10dp"
+        android:background="@android:drawable/ic_delete"
+        android:id="@+id/imgDeleteMember"/>
+
+</RelativeLayout>

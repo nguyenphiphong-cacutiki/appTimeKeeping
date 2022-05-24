@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">project03_timekeeping</string>
+    <string name="select_name">Select name</string>
+    <string name="this_is_date">This is date</string>
+    <string name="note"><u>Note</u></string>
+    <string name="select_members"><u>Select members</u></string>
+    <string name="show_all"><u>Show all</u></string>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:background="#D3B14A"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvListNameTimeKeeping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/select_name"
+        android:textStyle="bold"
+        android:background="#D86961"
+        android:paddingHorizontal="20dp"
+        android:textColor="#0BC6B5"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvSelectDateAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvListNameTimeKeeping"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:background="#D86961"
+        android:paddingHorizontal="20dp"
+        android:text="@string/this_is_date"
+        android:textColor="#0BC6B5"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tvSelectDateAdd"
+        android:ems="10"
+        android:inputType="textMultiLine|text"
+        android:hint="@string/note"
+        android:gravity="center_horizontal"
+        android:id="@+id/etNoteAdd"
+        />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etNoteAdd"
+        android:id="@+id/radioGroup"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+        <RadioButton
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mor"
+            android:id="@+id/radMor"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eve"
+            android:id="@+id/radEve"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All day"
+            android:id="@+id/radAll"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abs"
+            android:id="@+id/radAbs"/>
+
+    </RadioGroup>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cancel"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/radioGroup"
+        android:id="@+id/btTimekeepingCancel"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ok"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/radioGroup"
+        android:id="@+id/btTimekeepingOk"/>
+
+</RelativeLayout>

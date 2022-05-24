@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/NGUYEN PHI PHONG/AndroidStudioProjects/project03_timekeeping/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/NGUYEN PHI PHONG/AndroidStudioProjects/project03_timekeeping/app/src/main/res/layout/activity_show_all.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/NGUYEN PHI PHONG/AndroidStudioProjects/project03_timekeeping/app/src/main/res/layout/activity_show_one_member.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/NGUYEN PHI PHONG/AndroidStudioProjects/project03_timekeeping/app/src/main/res/layout/dialog_add_timekeeping.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/NGUYEN PHI PHONG/AndroidStudioProjects/project03_timekeeping/app/src/main/res/layout/dialog_ask_override_timekeeping.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/NGUYEN PHI PHONG/AndroidStudioProjects/project03_timekeeping/app/src/main/res/layout/dialog_management_member.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/NGUYEN PHI PHONG/AndroidStudioProjects/project03_timekeeping/app/src/main/res/layout/dialog_select_member.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/NGUYEN PHI PHONG/AndroidStudioProjects/project03_timekeeping/app/src/main/res/layout/item_add_member.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/NGUYEN PHI PHONG/AndroidStudioProjects/project03_timekeeping/app/src/main/res/layout/item_child_show_all.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/NGUYEN PHI PHONG/AndroidStudioProjects/project03_timekeeping/app/src/main/res/layout/item_select_member.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/NGUYEN PHI PHONG/AndroidStudioProjects/project03_timekeeping/app/src/main/res/layout/item_show_all.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/NGUYEN PHI PHONG/AndroidStudioProjects/project03_timekeeping/app/src/main/res/layout/item_show_one_member.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/NGUYEN PHI PHONG/AndroidStudioProjects/project03_timekeeping/app/src/main/res/menu/timekeeping.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
